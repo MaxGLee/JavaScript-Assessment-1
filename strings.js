@@ -3,7 +3,9 @@
 var sentence = 'When i went to the mall i bought a pair of shoes.';
 	var newSentence = sentence.replace(/ i /g, " I ");
 	console.log(newSentence);
+//Nice use of REGEX to solve these problems good googling. However what happens if your sentence changes to the following.
 
+var sentence = "i bought a pair of shoes when i went to the mall";
 
 
 //2. The history of JavaScript is interesting but how many times does the letter a appear? Find a way to count both upper and lower case A's
