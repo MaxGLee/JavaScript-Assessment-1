@@ -35,7 +35,14 @@ var stefan = {
 	email: 'stefan.nuxoll@gmail.com',
 	title: 'mentor'
 };
-
+contacts.push(jake, matt, chris, tony, andrew, stefan);
+var mentors = [];
+for (var index in contacts) {	
+	if(contacts[index].title == 'mentor'){		
+		mentors.push(contacts[index]);
+	}
+}
+console.log(mentors);
 
 //3. Woops after adding all of those people to the same contacts list you realized you need a list just the mentors. Create a new variable named mentors populate it using contacts array. 
 
